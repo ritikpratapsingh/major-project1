@@ -1,0 +1,233 @@
+@font-face {
+  font-family: PP mori;
+  src: url(./ppmori.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PP mori";
+}
+
+
+.main{
+  height: 120vh;
+  width: 100%;
+  background-color: #0f0d0d;
+  color: white;
+  position: relative;
+}
+
+.nav{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.nav h4{
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+
+.main-text h1{
+  font-size: 8vw;
+  font-weight: 300;
+  font-family: "pp mori";
+  margin-top: 12vw;
+  margin-left: 6vw;
+}
+.main-text h2{
+  font-size: 8vw;
+  font-weight: 300;
+  font-family: "pp mori";
+  margin-left: 26vw;
+}
+
+
+
+
+.main2{
+  padding-top: 10vw;
+  height: 120vh;
+  width: 100%;
+  background-color: #0f0d0d;
+  color: #0f0d0d;
+  position: relative;
+}
+
+.main2 .f-h3{
+  
+  font-size: 7vw;
+  font-weight: 300;
+
+}
+
+
+.page2-container{
+  height: 60%;
+  width: 100%;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.page2-left{
+  color: #111;
+  width: 38%;
+}
+
+.page2-right{
+  color: #111;
+  width: 24%;
+}
+
+.page2-left .sec-h3{
+  font-size: 4vw;
+  font-weight: 300;
+  
+}
+
+.page2-right p{
+    font-size: 28px;
+}
+
+.page2-right button{
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  padding: 4px 0;
+  background-color: #edbfff;
+  color: #111;
+  margin-top: 20px;
+
+}
+
+
+
+.main3{
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+}
+
+.main3 h1{
+  font-size: 6.8vw;
+  font-weight: 300;
+  color: #111;
+  margin-left: 100px;
+}
+
+.page3-part1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.page3-part1 img{
+  height: 400px;
+  margin-top: 160px;
+}
+.page3-part1 video{
+  height: 400px;
+  margin-top: 40px;
+}
+
+
+.page4{
+  min-height: 100vh;
+  width: 100%;
+  z-index: 9;
+  position: relative;
+  padding: 170px 100px;
+  color: white;
+}
+.elem{
+  /* background-color: salmon; */
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.elem img{
+  position: absolute;
+  opacity: 0;
+  transition: all ease-out 0.5s;
+  transform: translateY(10%) rotate(2deg);
+}
+.elem img:nth-child(1){
+  left: 2%;
+}
+.elem img:nth-child(3){
+  right: 5%;
+}
+.text-div{
+  height: 16vh;
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+}
+.elem h1{
+  color: white;
+  font-size: 7.5vw;
+  font-weight: 600;
+  transition: all ease-out 0.5s;
+}
+
+.elem:hover h1{
+  transform: translateY(-100%);
+  color: #EDBFFF;
+}
+.elem:hover img{
+  opacity: 1;
+  transform: translateY(0%) rotate(0deg);
+
+}
+
+
+
+
+.page5{
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 9;
+  padding: 140px 100px;
+}
+.page5 h2{
+  font-size: 4vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.box{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 20px;
+  border-top: 2px solid #dadada;
+}
+
+.box:nth-last-child(1){
+  border-bottom: 2px solid #dadada;
+
+}
+
+
+footer{
+  height: 90vh;
+  width: 100%;
+  background-color: #EDBFFF;
+}
