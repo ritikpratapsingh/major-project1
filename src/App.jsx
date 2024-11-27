@@ -19,7 +19,7 @@ function App() {
       scrollTrigger:{
         trigger: ".main",
        //scroller: ".main2",
-        markers:true,
+        //markers:true,
       //delay:2,
         start: "top -100%",
         end: "top -110%",
