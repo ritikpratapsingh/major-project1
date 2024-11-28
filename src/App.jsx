@@ -21,9 +21,9 @@ function App() {
        //scroller: ".main2",
         //markers:true,
       //delay:2,
-        start: "top -100%",
-        end: "top -110%",
-        scrub: 3,
+        start: "top -110%",
+        end: "top -130%",
+        scrub: 2,
         
       }
 
@@ -40,9 +40,9 @@ function App() {
       scrollTrigger:{
         trigger: ".main",
       // scroller: ".main3",
-        markers:true,
+        //markers:true,
       //delay:2,
-        start: "top -280%",
+        start: "top -290%",
         end: "top -300%",
         scrub: 3,
         
